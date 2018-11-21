@@ -1,0 +1,15 @@
+page-callphone {
+  .cardDesign{
+  //  background-color: #f6f6f6;
+    border-radius: 10px;
+    width: 100%;
+    margin: 10px 0 10px 0;
+  }
+
+  ion-item{
+   // background-color: #f6f6f6 !important;
+  }
+  ion-reorder ion-icon{
+    display: none;
+  }
+}

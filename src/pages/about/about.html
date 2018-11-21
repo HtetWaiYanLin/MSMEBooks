@@ -1,0 +1,59 @@
+<!--
+  Generated template for the AboutPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="bluesme">
+    <ion-title>About</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <div text-center>
+    <ion-row>
+      <ion-col>
+        <img style="width: 150px" src="assets/imgs/bgabout.jpg" />
+        <p style="font-weight: 600">MSME Books Accounting Solutions for You!</p>
+      </ion-col>
+    </ion-row>
+  </div>
+
+  <div>
+    <ion-row>
+      <ion-col><p style="font-weight: 400">The most comprehensive and reliable accounting solutions for micro, small and medium enterprises.</p></ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-3  style="font-size: 1.3rem">Website</ion-col>
+      <ion-col col-1>:</ion-col>
+      <ion-col col-8 (click)="goSite1()" style="font-size: 1.3rem"><a><u>{{wetsite}}</u></a></ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-3  style="font-size: 1.3rem">Facebook</ion-col>
+      <ion-col col-1>:</ion-col>
+      <ion-col col-8 (click)="goSite2()" style="font-size: 1.3rem"><a><u>{{facebook}}</u></a></ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-3  style="font-size: 1.3rem">Email</ion-col>
+      <ion-col col-1>:</ion-col>
+      <ion-col col-8 (click)="goSite3()" style="font-size: 1.3rem"><a><u>{{emailinfo}}</u></a></ion-col>
+    </ion-row>
+  </div>
+
+
+</ion-content>
+<ion-footer no-border style="background: #ffffff;font-size: 1.2rem" >
+    <div text-center style="line-height: 0" (click)="goSite()">
+      <p style="color: #0147c3;font-weight: 300">Powered By</p>
+      <img style="width: 70px;" src="assets/imgs/BCNlogo.png">
+      <p style="font-weight: 500"><a style="color:#000">Business Centric Network Company Limited</a></p>
+
+    </div>
+</ion-footer>
+<!--<ion-footer>
+
+</ion-footer>-->
